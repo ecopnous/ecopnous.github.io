@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    font-family: "Century Gothic", helvetica;
+    background-image: url("../images/font1.jpg");
+}
+header{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    height: 8vh;
+}
+header h1{
+    font-size: Normal;
+}
+header h2{
+    font-size: small;
+}
+nav li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav{
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 20px;
+}
+.blockPage{
+    width: 1000PX;
+    margin: auto;
+    margin-top: 15vh;
+}
+aside{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    float: right;
+}
+.blockConnection{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#backConnect{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+aside h1{
+    margin-left: 10px;
+}
+aside input[type='text'], aside input[type='password']{
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 250px;
+    font-family: "Century Gothic", helvetica;
+}
+.block{
+    text-align: center;
+}
+#conection{
+    margin-top: 30px;
+    padding: 10px;
+    border-style: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#inscription{
+    margin-top: 30px;
+    padding: 10px;
+    border-style: none;
+    background-color: rgb(9, 170, 9);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+article{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    background-image: url(../images/font6.jpg);
+    border-radius: 10px;
+}
+article td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.articleDeux{
+    width: 500px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+}
+.articleDeux td img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
